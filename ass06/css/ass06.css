@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400&display=swap');
+
+body {
+    background-color: rgb(59, 59, 59);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    margin: 0; 
+    padding: 0;
+}
+header {
+    height: 50px;
+    background-color: rgb(151, 92, 82);
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+ 
+#menu {
+    background-color: #525151;
+    margin: 0 auto 0 auto;
+    max-width: 1000px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 0 23px 0;
+    padding-top: 25px;
+}
+ 
+ul {
+    border:none;
+    padding: 0;
+    margin: 0;
+}
+
+ 
+li {
+    background-color:  #d1afa4;
+    color: #fff;
+    border-color:  #525151;
+    border-style: solid;
+    border-width: .2px 0 .2px 0;
+    font-size: 20px;
+    list-style-type: none;
+    height: 40px;
+    padding-left: 1em;
+    padding-top: 15px;
+    font-weight: 300;
+}
+
+.pasta {
+    background-color: #d1afa4;
+    color: #525151;
+    border-color:  #525151;
+    border-style: solid;
+    border-width: .2px 0 .2px 0;
+}
+
+.appetizers {
+    background-color: #646ea3;
+    color: white;
+    border-color:  #525151;
+    border-style: solid;
+    border-width: .2px 0 .2px 0;
+}
+
+.salad {
+    background-color: #7ea5ac;
+    color: white;
+    border-color:  #525151;
+    border-style: solid;
+    border-width: .2px 0 .2px 0;
+}
+
+#bottom {
+    margin: 50px auto 0 auto;
+    max-width: 1000px;
+    height: 30px;
+    text-align: center;
+    font-weight: 400;
+    color: #525151;
+}
+
+.col1 {
+    background-color: #646ea3;
+    float: right;
+    width: 33.3%;
+    height: 30px;
+    padding-top: 10px;
+}
+.col2 {
+    background-color: #d1afa4;
+    float: right;
+    width: 33.3%;
+    height: 30px;
+    padding-top: 10px;
+}
+.col3 {
+    background-color: #7ea5ac;
+    float: right;
+    width: 33.3%;
+    height: 30px;
+    padding-top: 10px;
+}
+ 
+#msg {
+    margin: 50px auto 0 auto;
+    max-width: 1000px;
+    height: 30px;
+    text-align: center;
+    font-weight: 400;
+    color: #525151;
+    padding-top: 10px;
+}
+
+
