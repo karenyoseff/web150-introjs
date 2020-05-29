@@ -7,6 +7,7 @@ body {
     margin: 0; 
     padding: 0;
 }
+/* Restaurant name Italiannis */
 header {
     height: 50px;
     background-color: rgb(151, 92, 82);
@@ -16,13 +17,13 @@ header {
     font-size: 30px;
     font-weight: 300;
 }
- 
+ /* style the div menu */
 #menu {
     background-color: #525151;
     margin: 0 auto 0 auto;
     max-width: 1000px;
 }
-
+/* Style the h1 */
 h1 {
     color: #fff;
     font-size: 24px;
@@ -31,17 +32,14 @@ h1 {
     margin: 0 0 23px 0;
     padding-top: 25px;
 }
- 
+ /* Adding styles to ul */
 ul {
     border:none;
     padding: 0;
     margin: 0;
 }
-
- 
+ /* Adding styles to li, and defining the general style of the list */
 li {
-    background-color:  #d1afa4;
-    color: #fff;
     border-color:  #525151;
     border-style: solid;
     border-width: .2px 0 .2px 0;
@@ -52,7 +50,15 @@ li {
     padding-top: 15px;
     font-weight: 300;
 }
-
+/* Defining the default style of the items of unav = unavailable */
+.unav {
+    background-color: #747373;
+    color: #525151;
+    border-color:  #525151;
+    border-style: solid;
+    border-width: .2px 0 .2px 0;
+}
+/* Defining style for pasta items */
 .pasta {
     background-color: #d1afa4;
     color: #525151;
@@ -60,7 +66,7 @@ li {
     border-style: solid;
     border-width: .2px 0 .2px 0;
 }
-
+/* Defining style for appetizers items */
 .appetizers {
     background-color: #646ea3;
     color: white;
@@ -68,7 +74,7 @@ li {
     border-style: solid;
     border-width: .2px 0 .2px 0;
 }
-
+/* Defining style for salad items */
 .salad {
     background-color: #7ea5ac;
     color: white;
@@ -76,7 +82,7 @@ li {
     border-style: solid;
     border-width: .2px 0 .2px 0;
 }
-
+/* Defining the bottom columns that specify the items categories of food */
 #bottom {
     margin: 50px auto 0 auto;
     max-width: 1000px;
@@ -85,29 +91,39 @@ li {
     font-weight: 400;
     color: #525151;
 }
-
+/* Defining the style for appetizers bottom column */
 .col1 {
     background-color: #646ea3;
     float: right;
-    width: 33.3%;
+    width: 25%;
     height: 30px;
     padding-top: 10px;
 }
+/* Defining the style for pasta bottom column */
 .col2 {
     background-color: #d1afa4;
     float: right;
-    width: 33.3%;
+    width: 25%;
     height: 30px;
     padding-top: 10px;
 }
+/* Defining the style for salad bottom column */
 .col3 {
     background-color: #7ea5ac;
     float: right;
-    width: 33.3%;
+    width: 25%;
     height: 30px;
     padding-top: 10px;
 }
- 
+/* Defining the style for unavailable bottom column */
+.col4 {
+    background-color: #747373;
+    float: right;
+    width: 25%;
+    height: 30px;
+    padding-top: 10px;
+}
+/* Defining the style for the bottom line fot delivering message */ 
 #msg {
     margin: 50px auto 0 auto;
     max-width: 1000px;
