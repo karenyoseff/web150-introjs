@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+html { 
+  background-color: #275393;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  /* padding-bottom: 50px; */
+  background-color: #F0F1F2;
+  font-weight: 200;
+}
+h1 {
+  font-size: 30px;
+  padding-top: 15px;
+  text-align: center;
+  font-weight: 200;
+}
+b {
+  font-weight: 500;
+}
+
+div {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+label {
+  display: inline-block;
+  margin: 15px 0 0;
+  padding: 0px;
+  width: 150px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin-left: 0;
+}
+/* tooltip */
+#form label {
+  display: inline-block;
+  width: 150px;
+}
+.form input {
+  height: 20px;
+  width: 150px;
+}
+/* birthday date picker */
+.birth input {
+  height: 20px;
+  width: 150px;
+}
+
+/* campus radio selector */
+#campus label {
+  padding: 0px;
+  width: 150px;
+  margin: 0;
+}
+
+/* Select menu */
+.program fieldset {
+  padding: 0;
+}
+.program select {
+  margin-left: 5px;
+  
+}
+.program label {
+  width: 120px;
+}
+.overflow {
+  height: 200px;
+}
+#files {
+  margin: 15px;
+}
+
+
+
+/* slider */
+#slider {
+  width: 500px;
+  padding: 3px;
+  margin: 10px 20px;
+}
+#custom-handle {
+  width: 40px;
+  height: 20px;
+  top: 50%;
+  margin-top: -.8em;
+  text-align: center;
+  line-height: 1.6em;
+  padding: 5px;
+  padding-top: 4px;
+}
+
+/* progress bar */
+#progressbar {
+  margin-top: 20px;
+}
+
+.progress-label {
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+.ui-dialog-titlebar-close {
+  display: none;
+}
+
+/* submit button */
+button {
+  margin-top: 15px;
+  
+}
+#bttn {
+  margin-left: 40%;
+}
+footer {
+  background-color: #CCCDCE;
+  margin-top: 150px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 15px;
+}
